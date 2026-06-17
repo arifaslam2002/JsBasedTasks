@@ -5,4 +5,5 @@ function wordCount(sentence){
     return console.log(words.length)
 
 }
+
 wordCount("adsdf gjghfh rtrtr nb werrv hyt")
