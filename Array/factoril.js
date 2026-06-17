@@ -6,4 +6,5 @@ function factorial(x){
     console.log(result)
     
 }
+
 factorial(4)
