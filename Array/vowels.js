@@ -7,4 +7,5 @@ function Vowels(str){
     }
     return count
 }
+
 console.log(Vowels("ElephAnt"))
