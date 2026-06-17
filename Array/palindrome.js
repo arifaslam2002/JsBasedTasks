@@ -6,4 +6,5 @@ function Palindrome(str){
     }
     return(palindrome == str)?console.log("Yes it's a palindrome"):console.log("Yes it's Not a palindrome")
 }
+
 Palindrome("Malayalam")
