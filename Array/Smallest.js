@@ -5,4 +5,5 @@ function smallest(array){
         console.log(small)
     }
 }
+
 console.log(smallest([12,54,74,98,25,8,36,54,78]))
