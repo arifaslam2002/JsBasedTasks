@@ -5,4 +5,5 @@ function sum(Array){
     }
     return total;
 }
+
 console.log(sum([12,18,89,52,74]))
