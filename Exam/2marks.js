@@ -5,5 +5,5 @@ const students = [
  { name: "Meera", score: 30 }
 ];
 
-let students50mark = students.filter(std=>std.score>50)
+let students50mark = students.filter(std=>std.score>50).map(std => std.name);
 console.log(students50mark)

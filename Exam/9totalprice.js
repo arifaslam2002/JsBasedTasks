@@ -4,7 +4,7 @@ const products = [
  { name: "Monitor", price: 8000 }
 ];
 
-let totalPrice = products.reduce( {total,price } =>{
- return total + products.price
+let totalPrice = products.reduce( (total,product) =>{
+ return total + product.price
 },0)
 console.log(totalPrice)
