@@ -18,11 +18,10 @@ function Calctax(amount){
  let PriceAfterDiscount = totalPrice-discount
  let tax = Calctax(PriceAfterDiscount) 
  let  finalAmount = PriceAfterDiscount + tax 
-console.log(`=====RECEIPT======
-    Total Base Price:${totalPrice}
-    Discount Applied:${discount}
-    Price After Discount:${PriceAfterDiscount}
-    Tax:${tax}
-    final Payable Amount:${finalAmount}
-    `)
+console.log("=====RECEIPT======")
+    console.log(`Total Base Price:${totalPrice}`)
+    console.log(`Discount Applied:${discount}`)
+    console.log(`Price After Discount:${PriceAfterDiscount}`)
+    console.log(`Tax:${tax}`)
+    console.log(`final Payable Amount:${finalAmount}`)
 alert(`Billing Complete! Final Payable Amount:${finalAmount}`)
