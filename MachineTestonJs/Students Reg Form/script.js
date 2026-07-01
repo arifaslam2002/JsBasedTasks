@@ -10,6 +10,8 @@ form.addEventListener("submit", (e) => {
   };
   if (student.phno.length !== 10) {
     alert("Phone Number must be 10 digits");
+    document.getElementById("phno").value = "";
+    document.getElementById("phno").focus()
     return;
   }
   students.push(student);
